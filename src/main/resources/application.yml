@@ -18,6 +18,10 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.SQLServerDialect
+#  cloud:
+#    inetutils:
+#      preferred-networks:
+#      - 127.0.0.1
 
 eureka:
   client:
