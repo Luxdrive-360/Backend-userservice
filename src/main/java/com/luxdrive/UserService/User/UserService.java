@@ -1,5 +1,10 @@
 package com.luxdrive.UserService.User;
 
-public class UserService {
+import org.springframework.stereotype.Service;
+
+
+public interface UserService {
+	
+	public void signUp(User user);
 
 }
